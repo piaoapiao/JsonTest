@@ -15,6 +15,21 @@
 		46505BB91EDC1896008605E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46505BB71EDC1896008605E5 /* LaunchScreen.storyboard */; };
 		46505BC41EDC1896008605E5 /* JsonTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46505BC31EDC1896008605E5 /* JsonTestTests.m */; };
 		46505BCF1EDC1896008605E5 /* JsonTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46505BCE1EDC1896008605E5 /* JsonTestUITests.m */; };
+		46505BF01EDC1A5E008605E5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 46505BDD1EDC1A5E008605E5 /* .gitignore */; };
+		46505BF11EDC1A5E008605E5 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 46505BDE1EDC1A5E008605E5 /* .travis.yml */; };
+		46505BF21EDC1A5E008605E5 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 46505BDF1EDC1A5E008605E5 /* Config.xcconfig */; };
+		46505BF31EDC1A5E008605E5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 46505BE01EDC1A5E008605E5 /* LICENSE */; };
+		46505BF41EDC1A5E008605E5 /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 46505BE11EDC1A5E008605E5 /* README.markdown */; };
+		46505BF51EDC1A5E008605E5 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 46505BE41EDC1A5E008605E5 /* CJSONDeserializer.m */; };
+		46505BF61EDC1A5E008605E5 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 46505BE61EDC1A5E008605E5 /* CJSONSerializer.m */; };
+		46505BF71EDC1A5E008605E5 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 46505BE91EDC1A5E008605E5 /* NSDictionary_JSONExtensions.m */; };
+		46505C081EDC1AC6008605E5 /* SBJson5Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 46505BFB1EDC1AC6008605E5 /* SBJson5Parser.m */; };
+		46505C091EDC1AC6008605E5 /* SBJson5StreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 46505BFD1EDC1AC6008605E5 /* SBJson5StreamParser.m */; };
+		46505C0A1EDC1AC6008605E5 /* SBJson5StreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 46505BFF1EDC1AC6008605E5 /* SBJson5StreamParserState.m */; };
+		46505C0B1EDC1AC6008605E5 /* SBJson5StreamTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 46505C011EDC1AC6008605E5 /* SBJson5StreamTokeniser.m */; };
+		46505C0C1EDC1AC6008605E5 /* SBJson5StreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 46505C031EDC1AC6008605E5 /* SBJson5StreamWriter.m */; };
+		46505C0D1EDC1AC6008605E5 /* SBJson5StreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 46505C051EDC1AC6008605E5 /* SBJson5StreamWriterState.m */; };
+		46505C0E1EDC1AC6008605E5 /* SBJson5Writer.m in Sources */ = {isa = PBXBuildFile; fileRef = 46505C071EDC1AC6008605E5 /* SBJson5Writer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +66,33 @@
 		46505BCA1EDC1896008605E5 /* JsonTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46505BCE1EDC1896008605E5 /* JsonTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonTestUITests.m; sourceTree = "<group>"; };
 		46505BD01EDC1896008605E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46505BDD1EDC1A5E008605E5 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		46505BDE1EDC1A5E008605E5 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		46505BDF1EDC1A5E008605E5 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		46505BE01EDC1A5E008605E5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		46505BE11EDC1A5E008605E5 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		46505BE31EDC1A5E008605E5 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
+		46505BE41EDC1A5E008605E5 /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
+		46505BE51EDC1A5E008605E5 /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
+		46505BE61EDC1A5E008605E5 /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
+		46505BE71EDC1A5E008605E5 /* JSONRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRepresentation.h; sourceTree = "<group>"; };
+		46505BE81EDC1A5E008605E5 /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
+		46505BE91EDC1A5E008605E5 /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
+		46505BF91EDC1AC6008605E5 /* SBJson5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson5.h; sourceTree = "<group>"; };
+		46505BFA1EDC1AC6008605E5 /* SBJson5Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson5Parser.h; sourceTree = "<group>"; };
+		46505BFB1EDC1AC6008605E5 /* SBJson5Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson5Parser.m; sourceTree = "<group>"; };
+		46505BFC1EDC1AC6008605E5 /* SBJson5StreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson5StreamParser.h; sourceTree = "<group>"; };
+		46505BFD1EDC1AC6008605E5 /* SBJson5StreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson5StreamParser.m; sourceTree = "<group>"; };
+		46505BFE1EDC1AC6008605E5 /* SBJson5StreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson5StreamParserState.h; sourceTree = "<group>"; };
+		46505BFF1EDC1AC6008605E5 /* SBJson5StreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson5StreamParserState.m; sourceTree = "<group>"; };
+		46505C001EDC1AC6008605E5 /* SBJson5StreamTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson5StreamTokeniser.h; sourceTree = "<group>"; };
+		46505C011EDC1AC6008605E5 /* SBJson5StreamTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson5StreamTokeniser.m; sourceTree = "<group>"; };
+		46505C021EDC1AC6008605E5 /* SBJson5StreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson5StreamWriter.h; sourceTree = "<group>"; };
+		46505C031EDC1AC6008605E5 /* SBJson5StreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson5StreamWriter.m; sourceTree = "<group>"; };
+		46505C041EDC1AC6008605E5 /* SBJson5StreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson5StreamWriterState.h; sourceTree = "<group>"; };
+		46505C051EDC1AC6008605E5 /* SBJson5StreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson5StreamWriterState.m; sourceTree = "<group>"; };
+		46505C061EDC1AC6008605E5 /* SBJson5Writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson5Writer.h; sourceTree = "<group>"; };
+		46505C071EDC1AC6008605E5 /* SBJson5Writer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson5Writer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +143,8 @@
 		46505BA81EDC1896008605E5 /* JsonTest */ = {
 			isa = PBXGroup;
 			children = (
+				46505BF81EDC1AC6008605E5 /* SBJson5 */,
+				46505BDC1EDC1A5E008605E5 /* TouchJSON-master */,
 				46505BAC1EDC1896008605E5 /* AppDelegate.h */,
 				46505BAD1EDC1896008605E5 /* AppDelegate.m */,
 				46505BAF1EDC1896008605E5 /* ViewController.h */,
@@ -138,6 +182,104 @@
 				46505BD01EDC1896008605E5 /* Info.plist */,
 			);
 			path = JsonTestUITests;
+			sourceTree = "<group>";
+		};
+		46505BDC1EDC1A5E008605E5 /* TouchJSON-master */ = {
+			isa = PBXGroup;
+			children = (
+				46505BDD1EDC1A5E008605E5 /* .gitignore */,
+				46505BDE1EDC1A5E008605E5 /* .travis.yml */,
+				46505BDF1EDC1A5E008605E5 /* Config.xcconfig */,
+				46505BE01EDC1A5E008605E5 /* LICENSE */,
+				46505BE11EDC1A5E008605E5 /* README.markdown */,
+				46505BE21EDC1A5E008605E5 /* Source */,
+				46505BEA1EDC1A5E008605E5 /* Support */,
+			);
+			path = "TouchJSON-master";
+			sourceTree = "<group>";
+		};
+		46505BE21EDC1A5E008605E5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				46505BE31EDC1A5E008605E5 /* CJSONDeserializer.h */,
+				46505BE41EDC1A5E008605E5 /* CJSONDeserializer.m */,
+				46505BE51EDC1A5E008605E5 /* CJSONSerializer.h */,
+				46505BE61EDC1A5E008605E5 /* CJSONSerializer.m */,
+				46505BE71EDC1A5E008605E5 /* JSONRepresentation.h */,
+				46505BE81EDC1A5E008605E5 /* NSDictionary_JSONExtensions.h */,
+				46505BE91EDC1A5E008605E5 /* NSDictionary_JSONExtensions.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		46505BEA1EDC1A5E008605E5 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				46505BEB1EDC1A5E008605E5 /* Demo */,
+				46505BEC1EDC1A5E008605E5 /* Test Data */,
+				46505BED1EDC1A5E008605E5 /* UnitTests */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		46505BEB1EDC1A5E008605E5 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		46505BEC1EDC1A5E008605E5 /* Test Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Test Data";
+			sourceTree = "<group>";
+		};
+		46505BED1EDC1A5E008605E5 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				46505BEE1EDC1A5E008605E5 /* TestData */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		46505BEE1EDC1A5E008605E5 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				46505BEF1EDC1A5E008605E5 /* JSONChecker */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+		46505BEF1EDC1A5E008605E5 /* JSONChecker */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JSONChecker;
+			sourceTree = "<group>";
+		};
+		46505BF81EDC1AC6008605E5 /* SBJson5 */ = {
+			isa = PBXGroup;
+			children = (
+				46505BF91EDC1AC6008605E5 /* SBJson5.h */,
+				46505BFA1EDC1AC6008605E5 /* SBJson5Parser.h */,
+				46505BFB1EDC1AC6008605E5 /* SBJson5Parser.m */,
+				46505BFC1EDC1AC6008605E5 /* SBJson5StreamParser.h */,
+				46505BFD1EDC1AC6008605E5 /* SBJson5StreamParser.m */,
+				46505BFE1EDC1AC6008605E5 /* SBJson5StreamParserState.h */,
+				46505BFF1EDC1AC6008605E5 /* SBJson5StreamParserState.m */,
+				46505C001EDC1AC6008605E5 /* SBJson5StreamTokeniser.h */,
+				46505C011EDC1AC6008605E5 /* SBJson5StreamTokeniser.m */,
+				46505C021EDC1AC6008605E5 /* SBJson5StreamWriter.h */,
+				46505C031EDC1AC6008605E5 /* SBJson5StreamWriter.m */,
+				46505C041EDC1AC6008605E5 /* SBJson5StreamWriterState.h */,
+				46505C051EDC1AC6008605E5 /* SBJson5StreamWriterState.m */,
+				46505C061EDC1AC6008605E5 /* SBJson5Writer.h */,
+				46505C071EDC1AC6008605E5 /* SBJson5Writer.m */,
+			);
+			name = SBJson5;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,8 +388,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46505BF11EDC1A5E008605E5 /* .travis.yml in Resources */,
+				46505BF01EDC1A5E008605E5 /* .gitignore in Resources */,
 				46505BB91EDC1896008605E5 /* LaunchScreen.storyboard in Resources */,
+				46505BF31EDC1A5E008605E5 /* LICENSE in Resources */,
 				46505BB61EDC1896008605E5 /* Assets.xcassets in Resources */,
+				46505BF21EDC1A5E008605E5 /* Config.xcconfig in Resources */,
 				46505BB41EDC1896008605E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,8 +420,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				46505BB11EDC1896008605E5 /* ViewController.m in Sources */,
+				46505C0C1EDC1AC6008605E5 /* SBJson5StreamWriter.m in Sources */,
+				46505C0A1EDC1AC6008605E5 /* SBJson5StreamParserState.m in Sources */,
+				46505C0E1EDC1AC6008605E5 /* SBJson5Writer.m in Sources */,
+				46505C091EDC1AC6008605E5 /* SBJson5StreamParser.m in Sources */,
 				46505BAE1EDC1896008605E5 /* AppDelegate.m in Sources */,
+				46505BF41EDC1A5E008605E5 /* README.markdown in Sources */,
+				46505C0B1EDC1AC6008605E5 /* SBJson5StreamTokeniser.m in Sources */,
+				46505C0D1EDC1AC6008605E5 /* SBJson5StreamWriterState.m in Sources */,
+				46505C081EDC1AC6008605E5 /* SBJson5Parser.m in Sources */,
+				46505BF61EDC1A5E008605E5 /* CJSONSerializer.m in Sources */,
 				46505BAB1EDC1896008605E5 /* main.m in Sources */,
+				46505BF51EDC1A5E008605E5 /* CJSONDeserializer.m in Sources */,
+				46505BF71EDC1A5E008605E5 /* NSDictionary_JSONExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +666,7 @@
 				46505BD51EDC1896008605E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46505BD61EDC1896008605E5 /* Build configuration list for PBXNativeTarget "JsonTestTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +675,7 @@
 				46505BD81EDC1896008605E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46505BD91EDC1896008605E5 /* Build configuration list for PBXNativeTarget "JsonTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +684,7 @@
 				46505BDB1EDC1896008605E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
